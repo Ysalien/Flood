@@ -1,0 +1,45 @@
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background-color: #000033;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #66c2ff;
+}
+
+.logo {
+  font-family: Bookman, URW Bookman L, serif;
+  font-variant: small-caps;
+  color:#66c2ff;
+  font-size: 25px;
+  margin-left: -35px;
+  margin-right: 25px;
+}
+
+.THP {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-text {
+  float: left;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000033;
+  font-size: 15px;
+  padding: 10px 20px 10px 10px; /* top right bottom left */
+}
+
+.avatar:hover .dropdown-content {
+  display: block;
+  right: 0;
+}
